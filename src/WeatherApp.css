@@ -1,0 +1,47 @@
+.weather-container {
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background: #fff;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.weather-input {
+    padding: 0.5rem;
+    width: 60%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 0.5rem;
+}
+
+.weather-button {
+    padding: 0.5rem 1rem;
+    margin: 0.5rem;
+    border: none;
+    border-radius: 4px;
+    background: #007BFF;
+    color: #fff;
+    cursor: pointer;
+}
+
+.weather-button.active {
+    background: #0056b3;
+}
+
+.weather-table {
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+.weather-table th,
+.weather-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.mt-1 {
+    margin-top: 1rem;
+}
