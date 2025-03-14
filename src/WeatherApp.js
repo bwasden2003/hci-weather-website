@@ -97,7 +97,8 @@ const WeatherApp = () => {
   return (
     <div className="weather-container">
       <h2>Weather App</h2>
-      {/* Text input for city */}
+
+      {/* get text input for city */}
       <div>
         <input
           type="text"
@@ -106,12 +107,8 @@ const WeatherApp = () => {
           onChange={(e) => setCity(e.target.value)}
           placeholder="Enter city"
         />
-        <button className="weather-button" onClick={fetchWeatherData}>
-          Update City
-        </button>
       </div>
 
-      {/* Button-based options for forecast type */}
       <div className="mt-1">
         <button
           className={`weather-button ${forecastType === 'temperature' ? 'active' : ''}`}
@@ -133,7 +130,7 @@ const WeatherApp = () => {
         </button>
       </div>
 
-      {/* Unit toggle button is shown only for temperature data */}
+      {/* only show temperature toggle button if we are displaying temperature */}
       {forecastType === 'temperature' && (
         <div className="mt-1">
           <button
@@ -145,7 +142,7 @@ const WeatherApp = () => {
         </div>
       )}
 
-      {/* Display the data or any messages */}
+			{/* table to display info from api */}
       <div className="mt-1">
         {loading && <p>Loading data...</p>}
         {error && <p style={{ color: 'red' }}>{error}</p>}
