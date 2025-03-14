@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/hci-weather-website/static/css/main.3ce4eb7a.css",
+    "main.js": "/hci-weather-website/static/js/main.b7e3d158.js",
+    "static/js/453.c6153088.chunk.js": "/hci-weather-website/static/js/453.c6153088.chunk.js",
+    "index.html": "/hci-weather-website/index.html",
+    "main.3ce4eb7a.css.map": "/hci-weather-website/static/css/main.3ce4eb7a.css.map",
+    "main.b7e3d158.js.map": "/hci-weather-website/static/js/main.b7e3d158.js.map",
+    "453.c6153088.chunk.js.map": "/hci-weather-website/static/js/453.c6153088.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3ce4eb7a.css",
+    "static/js/main.b7e3d158.js"
+  ]
+}
